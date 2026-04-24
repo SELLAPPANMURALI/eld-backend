@@ -93,3 +93,9 @@ REST_FRAMEWORK = {
 }
 
 # No API key needed — routing uses free Nominatim + OSRM (OpenStreetMap)
+
+
+
+import os
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = []
